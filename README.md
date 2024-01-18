@@ -13,16 +13,16 @@ npm i eslint --save-dev
 Next, install `eslint-plugin-humand`:
 
 ```sh
-npm install eslint-plugin-humand --save-dev
+npm install github:HumandDev/eslint-plugin-humand --save-dev
 ```
 
 ## Usage
 
-Add `humand` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `humand` to the extend section of your `.eslintrc` configuration file. You can omit the `eslint-config-` prefix:
 
 ```json
 {
-    "plugins": [
+    "extends": [
         "humand"
     ]
 }

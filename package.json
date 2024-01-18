@@ -1,11 +1,22 @@
 {
-  "name": "eslint-plugin-humand",
+  "name": "eslint-config-humand",
   "version": "0.0.0",
-  "description": "eslint plugin by Humand",
+  "description": "eslint config by Humand",
+  "main": "index.js",
+  "author": "Humand",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HumandDev/eslint-config-humand.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HumandDev/eslint-config-humand/issues"
+  },
+  "homepage": "https://github.com/HumandDev/eslint-config-humand#readme",
   "keywords": [
     "eslint",
-    "eslintplugin",
-    "eslint-plugin",
+    "eslintconfig",
+    "eslint-config",
     "humand"
   ],
   "author": "dgarcia-hu",
