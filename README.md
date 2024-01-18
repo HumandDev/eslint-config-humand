@@ -1,6 +1,6 @@
-# eslint-plugin-humand
+# eslint-config-humand
 
-eslint plugin by Humand
+eslint config by Humand
 
 ## Installation
 
@@ -10,7 +10,7 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-humand`:
+Next, install `eslint-config-humand`:
 
 ```sh
 npm install github:HumandDev/eslint-plugin-humand --save-dev
@@ -28,12 +28,4 @@ Add `humand` to the extend section of your `.eslintrc` configuration file. You c
 }
 ```
 
-
-
-## Configurations
-
-<!-- begin auto-generated configs list -->
-TODO: Run eslint-doc-generator to generate the configs list (or delete this section if no configs are offered).
-<!-- end auto-generated configs list -->
-
-
+You'll need to have a tsconfig.json.
