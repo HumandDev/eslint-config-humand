@@ -2,9 +2,6 @@
 
 module.export = {
   parser: "@typescript-eslint/parser",
-  parserOptions: {
-    project: "./tsconfig.json",
-  },
   extends: [
     "react-app",
     "react-app/jest",
