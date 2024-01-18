@@ -1,6 +1,6 @@
 // eslint-plugin-humand
 
-module.export = {
+module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
     "react-app",
