@@ -1,7 +1,14 @@
 // eslint-plugin-humand
 
 module.exports = {
+  env: {
+    "es6": true,
+    "browser": true
+  },
   parser: "@typescript-eslint/parser",
+  parserOptions: {
+    "project": "./tsconfig.json"
+  },
   extends: [
     "react-app",
     "react-app/jest",
