@@ -10,8 +10,6 @@ module.exports = {
     "project": "./tsconfig.json"
   },
   extends: [
-    "react-app",
-    "react-app/jest",
     "airbnb-typescript",
   ],
   rules: {

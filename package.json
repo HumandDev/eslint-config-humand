@@ -8,6 +8,12 @@
     "type": "git",
     "url": "git+https://github.com/HumandDev/eslint-config-humand.git"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HumandDev/eslint-config-humand/issues"
