@@ -36,6 +36,8 @@ module.exports = {
     "no-return-assign": "off",
     "no-restricted-properties": "off",
     "no-underscore-dangle": "off",
+    "no-extra-semi": "off",
+    "no-mixed-spaces-and-tabs": "off",
     "consistent-return": "off",
     "comma-spacing": "off",
     "comma-dangle": "off",
