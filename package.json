@@ -35,7 +35,8 @@
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": ">=7",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-plugin-react": "^7.33.2"
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-config-prettier": "^9.1.0"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^6.0.0",
