@@ -14,6 +14,12 @@ module.exports = {
     "airbnb-typescript",
   ],
   rules: {
+    "settings": {
+      "react": {
+        "version": "detect",
+      }
+    },
+
     "max-len": [
       "error",
       {
@@ -30,6 +36,7 @@ module.exports = {
     "no-return-assign": "off",
     "no-restricted-properties": "off",
     "no-underscore-dangle": "off",
+    "consistent-return": "off",
     "comma-spacing": "off",
     "comma-dangle": "off",
     "radix": "off",
@@ -106,13 +113,6 @@ module.exports = {
     // Evita el uso de las props como `props.id` y requiere hacer `const { id } = props`
     // "react/destructuring-assignment": "off",
     "react/destructuring-assignment": "error",
-
-    // PROP: prender:
-    // "consistent-return": "error",
-    //
-    // Evita returns inconsistentes.
-    // "consistent-return": "off",
-    "consistent-return": "error",
 
     // PROP 1: propongo dejarlo apagado, ya que tira muchos errores cuando se quieren reutilizar
     // nombres. Como por ejemplo con nombres del tipo "error", "err", "item", "response", etc...
