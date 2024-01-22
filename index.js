@@ -12,6 +12,7 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "airbnb-typescript",
+    "prettier",
   ],
   settings: {
     "react": {
