@@ -10,7 +10,6 @@ module.exports = {
     "project": "./tsconfig.json",
   },
   extends: [
-    "airbnb",
     "airbnb-typescript",
   ],
   rules: {
