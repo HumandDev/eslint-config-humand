@@ -13,13 +13,12 @@ module.exports = {
     "plugin:react/recommended",
     "airbnb-typescript",
   ],
+  settings: {
+    "react": {
+      "version": "detect",
+    }
+  },
   rules: {
-    "settings": {
-      "react": {
-        "version": "detect",
-      }
-    },
-
     "max-len": [
       "error",
       {
