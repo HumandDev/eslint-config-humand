@@ -10,26 +10,10 @@ module.exports = {
     "project": "./tsconfig.json",
   },
   extends: [
+    "plugin:react/recommended",
     "airbnb-typescript",
   ],
   rules: {
-    "comma-dangle": "off",
-    "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
-    "@typescript-eslint/no-use-before-define": "off",
-    "comma-spacing": "off",
-    "@typescript-eslint/comma-spacing": ["error", { "before": false, "after": true }],
-    "import/prefer-default-export": "off",
-    "jsx-a11y/anchor-is-valid": "off",
-    "react/no-array-index-key": "off",
-    "import/no-named-default": "off",
-    "import/no-named-as-default": "off",
-    "no-restricted-properties": "off",
-    "no-underscore-dangle": "off",
-    "@typescript-eslint/no-unused-expressions": "off",
-    "@typescript-eslint/no-redeclare": "off",
-    "import/no-extraneous-dependencies": "off",
-    "@typescript-eslint/indent": "off",
-    "@typescript-eslint/consistent-type-definitions": [2, "type"],
     "max-len": [
       "error",
       {
@@ -44,20 +28,46 @@ module.exports = {
     "no-param-reassign": "off",
     "no-plusplus": "off",
     "no-return-assign": "off",
-    "react/forbid-prop-types": "off",
-    "react/jsx-filename-extension": "off",
-    "import/extensions": "off",
-    "react/jsx-props-no-spreading": "off",
-    "react/react-in-jsx-scope": "off",
-    "react/require-default-props": "off",
-    "react/prop-types": "off",
+    "no-restricted-properties": "off",
+    "no-underscore-dangle": "off",
+    "comma-spacing": "off",
+    "comma-dangle": "off",
     "radix": "off",
-    "jsx-a11y/media-has-caption": "off",
+
+    "import/prefer-default-export": "off",
+    "import/no-named-default": "off",
+    "import/no-named-as-default": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+
+    "@typescript-eslint/no-unused-expressions": "off",
+    "@typescript-eslint/no-redeclare": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/consistent-type-definitions": [2, "type"],
     "@typescript-eslint/brace-style": [
       "error",
       "stroustrup"
     ],
+    "@typescript-eslint/comma-spacing": [
+      "error",
+      { "before": false, "after": true }
+    ],
+    "@typescript-eslint/comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "@typescript-eslint/no-use-before-define": "off",
 
+    "react/forbid-prop-types": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
+    "react/prop-types": "off",
+    "react/no-array-index-key": "off",
+
+    "jsx-a11y/media-has-caption": "off",
+    "jsx-a11y/anchor-is-valid": "off",
 
     // PROP: prender
     // "no-nested-ternary": "error",
@@ -120,7 +130,6 @@ module.exports = {
     // "no-extra-boolean-cast": "off",
     "no-extra-boolean-cast": ["error", {"enforceForLogicalOperands": true}],
 
-    // Indent con errores
     // DEPRECADO
     "object-curly-newline": "off",
     "no-confusing-arrow": "off",
