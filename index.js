@@ -65,7 +65,7 @@ module.exports = {
     "@typescript-eslint/consistent-type-definitions": [2, "type"],
     "@typescript-eslint/brace-style": [
       "error",
-      "stroustrup"
+      "1tbs"
     ],
     "@typescript-eslint/comma-spacing": [
       "error",
