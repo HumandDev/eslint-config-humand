@@ -18,14 +18,13 @@ npm install github:HumandDev/eslint-plugin-humand --save-dev
 
 ## Usage
 
-Add `humand` to the extend section of your `.eslintrc` configuration file. You can omit the `eslint-config-` prefix:
+Add `humand` to the extend section of your `eslint.config.js` configuration file. You can omit the `eslint-config-` prefix:
 
-```json
-{
-    "extends": [
-        "humand"
-    ]
-}
+```js
+import humandESLintConfig from 'eslint-config-humand';
+
+export default humandESLintConfig;
+
 ```
 
 You'll need to have a tsconfig.json.
