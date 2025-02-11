@@ -9,6 +9,7 @@ module.exports = {
   parserOptions: {
     "project": "./tsconfig.json",
   },
+  plugins: ["prettier"],
   extends: [
     "plugin:react/recommended",
     "airbnb-typescript",
@@ -91,6 +92,8 @@ module.exports = {
 
     "jsx-a11y/media-has-caption": "off",
     "jsx-a11y/anchor-is-valid": "off",
+
+    "prettier/prettier": "error",
 
     // DEPRECADO
     "object-curly-newline": "off",
