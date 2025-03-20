@@ -62,7 +62,6 @@ module.exports = {
 
     "@typescript-eslint/no-unused-expressions": "off",
     "@typescript-eslint/no-redeclare": "off",
-    "@typescript-eslint/no-unsafe-argument": "warn",
     "@typescript-eslint/indent": "off",
     "@typescript-eslint/consistent-type-definitions": [2, "type"],
     "@typescript-eslint/brace-style": [
